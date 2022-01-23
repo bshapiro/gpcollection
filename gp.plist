@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Disabled</key>
+    <false/>
+    <key>Label</key>
+    <string>global.poker</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Path/to/gpcollection/gp_job.sh</string>
+    </array>
+    <key>StandardErrorPath</key>
+    <string>/Path/to/gpcollection/gp_job.error.txt</string>
+    <key>StandardOutPath</key>
+    <string>/Path/to/gpcollection/gp_job.log.txt</string>
+    <key>StartCalendarInterval</key>
+    <array>
+      <dict>
+          <key>Hour</key>
+          <integer>00</integer>
+          <key>Minute</key>
+          <integer>42</integer>
+      </dict>
+    </array>
+</dict>
+</plist>
